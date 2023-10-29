@@ -7,12 +7,11 @@ This repository implements the following frameworks: HSFL (do not include hierar
 
 ### 2. Structure of this code:
 ```
-"data": CIFAR10 dataset
+"data": CIFAR10 dataset, needing manually creation.
 "RL_training": training FedAdapt RL agent.
 "FL_training": code for running HSFL, FedAdapt, SplitFedv1, SplitFedv2, and FL.
 "models": the target training model (VGG) and models for FedAdapt RL agent.
-"results": running results.
-"HSFL_experiments": data analysis for the paper.
+"results": running results, needing manually creation.
 "utils": utilities.
 "environment": building environment.
 ```

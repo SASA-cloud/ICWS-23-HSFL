@@ -160,7 +160,7 @@ elif model_name == 'VGG9':
 SFL_layer = [args.SFL_sp] * K  
 
 # Dataset configration 
-dataset_path = '../../data/cifar/'
+dataset_path = '../data/cifar/'
 print("data_path: ",dataset_path)
 
 # results saving path
