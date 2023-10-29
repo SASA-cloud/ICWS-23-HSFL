@@ -1,3 +1,6 @@
+# ICWS 2023 HSFL
+Code of "HSFL: Efficient and Privacy-Preserving Offloading for Split and Federated Learning in IoT Services" published on International Conference on Web Services (ICWS) 2023
+
 
 ### 1. Introduction
 This repository contains code of "HSFL: Efficient and Privacy-Preserving Offloading for Split and Federated Learning in IoT Services" on ICWS 2023.
