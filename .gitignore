@@ -1,0 +1,8 @@
+**/__pycache__
+**/logs
+**/rcs
+**/results
+**/RL_iter_record
+**/trained_models
+**/slurms/*.sif
+**/data
