@@ -20,13 +20,13 @@ This repository implements the following frameworks: HSFL (do not include hierar
 ```
 
 ### 3. Environment
-* Edge server:
+#### Edge server:
 a mac laptop using anaconda3 to build a virtual environment.
 you can create this environment by executing:
 ```bash
 conda env create -n pytorch -f pytorch.yaml
 ```
-* End devices:
+#### End devices:
 we use three Raspberry Pi 4B and two Jetson Nano.
 Virtualenv are used instead of anaconda3 to build a virtual environment.
 We build up torch 1.8.0 and torchvision 0.9.0 environemnts with wheels.
@@ -36,11 +36,8 @@ The environment building process is very tiring, so we leave the shell scrips we
 * Pytorch (Pi): https://discuss.pytorch.org/t/installing-pytorch-on-raspberry-pi-3/25215/12
 * Pyotrch: https://github.com/FedML-AI/FedML-IoT/tree/master/pytorch-pkg-on-rpi
 * Jetson: https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-8-0-now-available/72048
-* README of `SAMIKWA E, MAIO A D, BRAUN T. Ares: Adaptive resource-aware split learning for internet of things. Computer Networks, 2022, 218.`
-* README of `Gao, Y., et al. (2020). End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things. 2020 International Symposium on Reliable Distributed Systems (SRDS): 91-100.`
-* README of `C. Thapa, M. A. P. Chamikara, and S. A. Camtepe, "Advancements of federated learning towards privacy preservation: from federated learning to split learning," in Federated Learning Systems: Springer, 2021, pp. 79-109.`
 
-* Code modification:
+#### Code modification:
 We provide the configration and source code of those frameworks in our paper. If you want to reproduce the results based on your own devices, please modifify those IPs, file routes, sockets numbers in the `utils/config.py`.
 
 ### 4. Run the code:
